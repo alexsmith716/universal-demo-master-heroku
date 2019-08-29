@@ -4,6 +4,18 @@
 
 # Universal Demo
 >This demo has been updated to a Webpack 4 implementation
+
+## For Heroku:
+
+$$$$$ git init
+$$$$$ git add .
+$$$$$ git commit -m "Initial commit."
+$$$$$ heroku login
+$$$$$ heroku create
+$$$$$ heroku config:set YARN_PRODUCTION=false
+$$$$$ git push heroku master
+
+
 <p align="center">
   <img src="https://cdn.reactlandia.com/react-universal-component-demo-twitter.gif" />
 </p>
