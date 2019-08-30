@@ -5,15 +5,21 @@
 # Universal Demo
 >This demo has been updated to a Webpack 4 implementation
 
-## For Heroku:
+## For deploying a Heroku app using Git:
 
-$$$$$ git init
-$$$$$ git add .
-$$$$$ git commit -m "Initial commit."
-$$$$$ heroku login
-$$$$$ heroku create
-$$$$$ heroku config:set YARN_PRODUCTION=false
-$$$$$ git push heroku master
+```
+$ git init
+$ git add .
+$ git commit -m "Initial commit."
+$ heroku login
+$ heroku create
+$ heroku config:set YARN_PRODUCTION=false
+$ git push heroku master
+```
+
+Heroku App:
+
+- https://desolate-river-21996.herokuapp.com/
 
 
 <p align="center">
